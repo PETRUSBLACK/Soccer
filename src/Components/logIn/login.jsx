@@ -1,7 +1,10 @@
 import React from 'react'
+import Landpage from './landingPage';
 
 function Login() {
-    return <h1>Hello World!</h1>;
+    return <>
+            <Landpage />
+           </>;
   }
 
 export default Login;

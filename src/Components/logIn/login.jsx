@@ -6,7 +6,7 @@ import './login.css'
 function Login() {
     return(
       <section>
-        <div class="container">
+        <div>
           <div class="row" className="landing-style">
             <div class="col-lg-6">
               <div className="stylingimage">

@@ -2,6 +2,7 @@ import React from "react";
 import './login.css';
 import { MdFrontHand } from "react-icons/md"
 import Footer from "./footer";
+import { AiFillEye } from 'react-icons/ai';
 
 function Forms(){
     return(
@@ -20,7 +21,13 @@ function Forms(){
             <div class="form-group">
                 <label for="inputsm" style={{fontSize: '10px', fontFamily: 'Open Sans'}}>Password
                 </label>
-                <input class="form-control col-xs-4" type="password" placeholder="Password" style={{fontSize:'15px'}}/>
+                <div class="input-group">
+                    <input class="form-control col-xs-4" type="password" placeholder="Password" style={{fontSize:'15px'}}/>
+                    <div class="input-group-append">
+                        <span class="input-group-text" style={{backgroundColor:'#402A75', border: "0px"}}>< AiFillEye /></span>
+                    </div>
+                </div>
+                
             </div>
 
             <p class="float-right" style={{fontSize:'10px', color:'#F5B629',fontFamily: 'Open Sans'}}>Forget Password? </p> <br/>

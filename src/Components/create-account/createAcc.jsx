@@ -1,5 +1,5 @@
 import React from 'react'
-import Forms from '../create-account/inputs'
+import Forms from './inputs'
 // import logo from './images/logo.png'
 import logo_2 from './images/logo_2.png'
 import './create.css';

@@ -29,6 +29,9 @@
 input[type=text],input[type=password]{
     border: none;
   }
+  input[type=text]:focus {
+    color: white;
+    }
 .login-icons{
     background-color: white;
     width: 40px;

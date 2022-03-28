@@ -49,6 +49,12 @@ margin-bottom: 30px;
   margin-top:80px;
   border-radius:20px;
   margin-right: 1%;
+  transition: width 1s, height 1s;
+
+}
+.allcard:hover {
+  width: 16.5rem;
+  height : 19.5rem;
 }
 .sportman{
   color:#F5B629;
@@ -59,8 +65,4 @@ margin-bottom: 30px;
 .experience{
   font-family: 'Open Sans';
   font-size: 10px;
-}
-.img:hover {
-  width: 150px;
-  height : 230rem;
 }

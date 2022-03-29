@@ -1,6 +1,8 @@
 import React from 'react'
+import { BsAlignCenter } from 'react-icons/bs';
 import './create.css';
 import logo_2 from './images/logo_2.png'
+import Continue from './continue';
 
 function CreateAccount() {
     return(
@@ -40,7 +42,10 @@ function CreateAccount() {
                       </p>
               </div>
             </div>
-            <center style={{marginTop:"70px"}}>Go back to Sign In</center>
+
+            {/* adding the continue component */}
+            <Continue />
+            <center style={{marginTop:"10px"}}>Go back to Sign In</center>
           </div>
         </div> 
       </section>

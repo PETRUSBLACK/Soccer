@@ -1,5 +1,4 @@
 import React from 'react'
-import { BsAlignCenter } from 'react-icons/bs';
 import './create.css';
 import logo_2 from './images/logo_2.png'
 import Continue from './continue';
